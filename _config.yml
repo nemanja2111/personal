@@ -113,6 +113,7 @@ analytics:
 collections:
   projects:
     output: true
+    permalink: /projects/:title/
 
 # Site Author
 author:
