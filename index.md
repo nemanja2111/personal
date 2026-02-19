@@ -11,5 +11,5 @@ Hi, I'm Nemanja. This site shows my AI & ML projects and blog posts.
 ## My Projects
 
 {% for project in site.projects %}
-- [{{ project.title }}]({{ site.baseurl }}{{ project.url }}) — {{ project.excerpt }}
+- [{{ project.title }}]({{ project.url | relative_url }}) — {{ project.excerpt }}
 {% endfor %}
