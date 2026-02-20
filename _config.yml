@@ -17,13 +17,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "FN Portfolio"
+title                    : "DataSphere"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Filipovic Nemanja"
 description              : "Portfolio, blog and demo projects,"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/personal"# the subpath of your site, e.g. "/blog"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -118,10 +118,11 @@ collections:
 # Site Author
 author:
   name             : "Filipovic Nemanja"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/me.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "AI & ML Engineer"
   location         : "Serbia"
   email            : "nemanjatesla11@gmail.com"
+  linkedin         : "nemanja-filipovi%C4%87-4016a3120/"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -138,9 +139,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Nemanja-Filipovic-3"
 
 # Site Footer
 footer:
