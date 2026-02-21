@@ -3,6 +3,8 @@ layout: home
 title: "Nemanja Filipovic – AI & ML Engineer"
 author_profile: true
 entries_layout: grid
+header:
+  image: /assets/images/nav-home.jpg
 ---
 
 ## Welcome
