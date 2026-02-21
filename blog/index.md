@@ -2,6 +2,8 @@
 layout: archive
 title: "Blog"
 permalink: /blog/
+header:
+  image: /assets/images/nav-blog.jpg
 ---
 
 <div class="entries-grid">
